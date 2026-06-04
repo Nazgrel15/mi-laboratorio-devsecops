@@ -11,5 +11,6 @@ print(f"[+] Sistema Operativo detectado: {platform.system()} {platform.release()
 print(f"[+] Ruta de ejecución: {os.getcwd()}")
 
 # Verifica si tienes variables de entorno criticas configuradas
-print("[+] Uusario ejecutando el script: {usuario}")
+usuario = os.environ.get("USERNAME") or os.environ.get("USER")
+print(f"[+] Usuario ejecutando el script: {usuario}")
 print("=========================================")

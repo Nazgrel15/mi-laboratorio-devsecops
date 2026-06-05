@@ -1,0 +1,26 @@
+[
+  {
+    "evento_id": "EVT-001",
+    "timestamp": "2026-06-04 21:30:15",
+    "usuario": "kevin.admin",
+    "ip_origen": "200.45.12.30",
+    "resultado": "SUCCESS",
+    "servicio": "AWS_Console"
+  },
+  {
+    "evento_id": "EVT-002",
+    "timestamp": "2026-06-04 21:31:02",
+    "usuario": "root",
+    "ip_origen": "185.220.101.5",
+    "resultado": "FAILED_PASSWORD",
+    "servicio": "AWS_SSH"
+  },
+  {
+    "evento_id": "EVT-003",
+    "timestamp": "2026-06-04 21:31:05",
+    "usuario": "root",
+    "ip_origen": "185.220.101.5",
+    "resultado": "FAILED_PASSWORD",
+    "servicio": "AWS_SSH"
+  }
+]

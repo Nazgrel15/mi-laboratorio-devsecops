@@ -4,7 +4,7 @@ import os
 print("[+] Iniciando análisis de seguridad de código...")
 
 archivo_a_revisar = "config.txt"
-palabras_peligrosas = ["SECRET_KEY", "PASSWORD", "CLAVE", "TOKEN"]
+palabras_peligrosas = ["SECRET_KEY", "PASSWORD", "CLAVE", "TOKEN", "API_KEY",]
 hallazgos = []
 
 # 1. Analizar el archivo en busca de fallas
